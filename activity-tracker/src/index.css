@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* custom */
+.App {
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App-header {
+  color: #3F8ED1;
+  font-size: 2rem;
+}
+
+.input {
+  margin: 2rem 0;
+  height: 2rem;
+  width: 15rem;
+}
+.input-btn {
+  height: 2.5rem;
+  width: 7rem;
+  background-color: #19D1B2;
+  color: white;
+  font-size: 1rem;
+}
+
+.activity {
+  display: flex;
+  justify-content: space-evenly;
+  /* width: 100%; */
+  margin: 3rem;
+  border: 1px solid gray;
+  padding: 1.5rem;
+}
+
+.day {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+.month {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 1rem;
+}
+button:hover {
+  border: 2px solid blue;
+}
+
+.active {
+  background-color: #19D1B2;
+  
+}
+
+.month {
+  font-size: 1.5rrem;
+  color: red;
+}
